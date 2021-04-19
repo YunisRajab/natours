@@ -1154,7 +1154,7 @@ body {
     text-decoration: none;
     text-transform: uppercase;
     display: inline-block;
-    transition: all .2s; }
+    transition: all 0.2s; }
   .footer__link:hover, .footer__link:active {
     color: #55c57a;
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.4);
@@ -1169,6 +1169,8 @@ body {
         width: 100%;
         text-align: center;
         float: none; } }
+  .footer__source, .footer__source:link, .footer__source:visited {
+    color: #55c57a; }
 
 .row {
   max-width: 114rem;
